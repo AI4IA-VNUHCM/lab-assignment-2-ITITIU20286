@@ -42,6 +42,6 @@ int main(int argc, char *argv[]) {
     else {
     printf("%d", result2);
     }
-    getch();
+    getc;
     return 0;
 }
