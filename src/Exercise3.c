@@ -20,7 +20,6 @@ int main(int argc, char *argv[]) {
 	}
 	else{
 		for (int i = 2; i<=testcase;i++){
-			printf("%d=",testcase);
 			while(testcase>1){
 				if(testcase%i==0){
 					printf("%d",i);
