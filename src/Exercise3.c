@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 				if(testcase%i==0){
 					printf("%d",i);
 					if(testcase!=i){
-						printf("*");
+						printf(" * ");
 					}
 					testcase/=i;}
 					else{
